@@ -44,7 +44,7 @@ to guess it right.''')
         # Number of right guesses but in the wrong place
 
         solution_dict = {}
-        # keys-characters in the solution  that are not in the attempt, values number of appearances in the solution
+        # keys-characters in the solution  that are not in the attempt, values-number of appearances in the solution
         for index_s, number_s in enumerate(solution):
             if number_s == attempt[index_s]:
                 actual_exact += 1
